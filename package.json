@@ -1,0 +1,30 @@
+{
+  "name": "app-store-data",
+  "version": "1.0.0",
+  "description": "\"Server to retrieve app store meta data\"",
+  "main": "server.js",
+  "scripts": {
+    "setup": "npm install && cd front-end && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "star": "start chrome http://localhost:5000 && node server",
+    "client": "cd front-end && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian20191176/app-store-data.git"
+  },
+  "author": "Anchelo Adrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrian20191176/app-store-data/issues"
+  },
+  "homepage": "https://github.com/adrian20191176/app-store-data#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "google-play-scraper": "^8.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
